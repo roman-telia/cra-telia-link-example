@@ -1,0 +1,31 @@
+@import url("https://cdn.voca.teliacompany.com/fonts/index.css");
+@import "@teliads/components/foundations/spacing/variables";
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+.telia-p--preamble-100 {
+  hyphens: none;
+}
+.text .teliaRadioButton {
+  margin-top: $telia-spacing-8;
+}
+
+.telia-fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-chip-row {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 1em;
+}

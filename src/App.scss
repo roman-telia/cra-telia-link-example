@@ -1,0 +1,25 @@
+@import "@teliads/components/foundations/colors/variables";
+@import "@teliads/components/foundations/spacing/variables";
+
+.telia-p--preamble-200,
+.telia-heading--title-600,
+.telia-heading--title-400,
+.telia-heading--title-200,
+.telia-heading--title-100,
+.telia-p--paragraph-100,
+.telia-p--subsection {
+  color: $telia-black;
+}
+
+.mainSection {
+  padding: $telia-spacing-48 0 $telia-spacing-48 0;
+  background-color: $telia-gray-100;
+  .tabBody {
+    padding: $telia-spacing-48 0 $telia-spacing-64;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .mainSection {
+    padding: $telia-spacing-64 0 $telia-spacing-96 0;
+  }
+}

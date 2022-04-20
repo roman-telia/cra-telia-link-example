@@ -1,0 +1,39 @@
+@import "@teliads/components/foundations/colors/variables";
+@import "@teliads/components/foundations/spacing/variables";
+
+.telia-navbar {
+  padding: $telia-spacing-24;
+  background-color: $telia-purple-900;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  .col-2 {
+    width: 80%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &--right {
+      justify-content: flex-end;
+    }
+    .telia-p--subsection {
+      color: $telia-white;
+    }
+  }
+  .col-8 {
+    width: 20%;
+  }
+  @media only screen and (min-width: 700px) {
+    .telia-navbar {
+      padding: $telia-spacing-24 $telia-spacing-48;
+      .col-2 {
+        width: 20%;
+      }
+      .col-8 {
+        width: 80%;
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+@import "@teliads/components/foundations/spacing/variables";
+
+footer {
+    padding: $telia-spacing-48 0;
+    .telia-heading--title-100 {
+        margin-top: $telia-spacing-24;
+    }
+}
